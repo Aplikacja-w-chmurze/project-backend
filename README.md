@@ -1,3 +1,14 @@
 # project-backend
-###### Job z pylintem poszedł za pierwszym razem, jakby za łatwo. Bardzo proszę, o sprawdzenie workflow test.yml
-###### *Już naprawione, okazało się, że kod z test.yml nie sprawdzał żadnego pliku.  Obecnie pobiera package z requirements oraz testuje plik app.py
+
+#### Kroki do uruchomienia obrazu dockerfile
+
+1. W terminalu napisać polecenie docker build -t project-backend
+
+2. Wejść w zakładkę "Images" w Dockerze
+
+3. Odpalić utworzony obraz,
+
+4. Ustawić port 5000 w zakładce settings
+
+5. Wpisać w przeglądarce polecenie "localhost:5000/hello" albo "localhost:5000/hello/imie"
+
